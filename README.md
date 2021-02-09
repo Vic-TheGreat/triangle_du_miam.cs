@@ -13,14 +13,14 @@ En regardant les commandes suivantes, des scientifiques se sont rendu compte qu'
 
 ## Spécifications
 
-- [] 1.    Chaque combinaison de deux repas permet de faire une prédiction comme ceci :
+1.    Chaque combinaison de deux repas permet de faire une prédiction comme ceci :
 ```txt
 Combinaison  🍣 🍣   🍣 🍕   🍣 🥦   🍕 🥦
 Prédiction    🍣      🥦      🍕     🍣
 ```
 Si deux repas sont similaires, la prédiction sera ce même repas. Sinon la prédiction sera le repas restant.
 
-2.   Les prédictions se font par lignes successives de taille combinaisons précédentes - 1, ce qui donne naissance au fameux Triangle du miam.
+2.   Les prédictions se font par lignes successives de taille `combinaisons précédentes - 1`, ce qui donne naissance au fameux Triangle du miam.
 
 En reprenant l'exemple précédent :
 ```txt
